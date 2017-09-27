@@ -47,11 +47,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NunitParallelizationTest.cs" />
+    <Compile Include="ParallelTestFixture.cs" />
+    <Compile Include="ParallelTestFixtureChildren.cs" />
+    <Compile Include="ParallelTestMethods.cs" />
+    <Compile Include="ParallelTestMethodsSTA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

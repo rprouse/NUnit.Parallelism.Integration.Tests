@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitParallelismIntegrationTests", "NUnitParallelismIntegrationTests\NUnitParallelismIntegrationTests.csproj", "{47C7F745-9233-44B4-9926-FB3DFBD14560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Parallelism.Integration.Tests", "NUnit.Parallelism.Integration.Tests\NUnit.Parallelism.Integration.Tests.csproj", "{47C7F745-9233-44B4-9926-FB3DFBD14560}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

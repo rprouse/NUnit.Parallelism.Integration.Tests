@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Respects.ApartmentState", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupFixture", "tests\SetupFixture\SetupFixture.csproj", "{2662B483-8B94-4E4A-96B1-212E95C392EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel.Children", "Parallel.Children\Parallel.Children.csproj", "{68CD3C57-B398-4029-A529-F993F2C28434}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel.Children", "tests\Parallel.Children\Parallel.Children.csproj", "{68CD3C57-B398-4029-A529-F993F2C28434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,8 @@
 ﻿using System.Threading;
 using NUnit.Framework;
 
+// Tests Parallelization causes test cases to stop respecting fixture's apartment state #2388
+
 [assembly: Parallelizable(ParallelScope.Children)]
 
 namespace RespectsApartmentState

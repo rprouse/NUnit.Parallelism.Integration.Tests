@@ -1,5 +1,7 @@
 ﻿using NUnit.Framework;
 
+// Tests https://github.com/nunit/nunit/issues/2467
+
 namespace BugNUnit
 {
     [SetUpFixture]

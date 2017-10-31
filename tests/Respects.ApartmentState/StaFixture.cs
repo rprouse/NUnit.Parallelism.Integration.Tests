@@ -7,7 +7,8 @@ using NUnit.Framework;
 
 namespace RespectsApartmentState
 {
-    [Apartment(ApartmentState.STA)]
+    [RequiresThread(System.Threading.ApartmentState.STA)]
+    //[Apartment(ApartmentState.STA)]
     public class StaFixture
     {
         [TestCase(1)]

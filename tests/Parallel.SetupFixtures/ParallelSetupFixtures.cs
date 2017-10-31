@@ -12,10 +12,13 @@ namespace Parallel.SetupFixtures
     [SetUpFixture]
     public class FooSetUp
     {
+        //[Parallelizable(ParallelScope.Self)]
         [OneTimeSetUp]
         public void FooSetUpMethod()
         {
-            Console.WriteLine("FooSetUp");
+            TestContext.Progress.WriteLine("FooSetUp - S");
+            Thread.Sleep(5000);
+            TestContext.Progress.WriteLine("FooSetUp - E");
         }
     }
 
@@ -26,8 +29,9 @@ namespace Parallel.SetupFixtures
         [OneTimeSetUp]
         public void BarSetUpMethod()
         {
-            Thread.Sleep(500); // if this line is commented out, then NUnit will not hang
-            Console.WriteLine("BarSetUp");
+            TestContext.Progress.WriteLine("BarSetUp - S");
+            Thread.Sleep(5000); // if this line is commented out, then NUnit will not hang
+            TestContext.Progress.WriteLine("BarSetUp - E");
         }
     }
 
@@ -37,7 +41,7 @@ namespace Parallel.SetupFixtures
         [Test]
         public void MyTest()
         {
-            Console.WriteLine("MyTest");
+            TestContext.Progress.WriteLine("MyTest");
         }
     }
 }

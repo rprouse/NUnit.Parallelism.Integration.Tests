@@ -46,6 +46,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="Children.cs" />
     <Compile Include="Deserialization.cs" />
+    <Compile Include="NunitParallelizationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

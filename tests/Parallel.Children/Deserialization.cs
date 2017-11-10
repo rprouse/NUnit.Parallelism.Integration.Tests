@@ -12,7 +12,7 @@ namespace Parallel.Children
     class Deserialization
     {
         public static IEnumerable<TimeSpan> ShouldDeserializeAllCases()
-              => Enumerable.Repeat(0, 5).Select(x => TimeSpan.FromSeconds(10));
+              => Enumerable.Repeat(0, 5).Select(x => TimeSpan.FromSeconds(2));
 
         [TestCaseSource("ShouldDeserializeAllCases"), Parallelizable(ParallelScope.Children)]
         public void ShouldDeserializeAll(TimeSpan t)
